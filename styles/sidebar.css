@@ -1,0 +1,68 @@
+.sidebar-parent {
+  height: 100vh;
+  width: 20vw;
+  position: fixed;
+  background: #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(199, 199, 199, 1) 50%,
+    rgba(180, 180, 180, 1) 100%
+  );
+}
+.top-icon {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.top-icon p {
+  transition: all 0.25s;
+  margin-left: 10px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.radio-btns1 {
+  height: 25vh;
+  border-bottom: 2px solid rgb(200, 200, 200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-left: 15%;
+  padding-top: 10%;
+}
+.btns3 {
+  height: 30vh;
+}
+.btns1 {
+  margin-bottom: 18px;
+}
+.btns1 div {
+  margin-bottom: 10px;
+}
+.btns1 div label {
+  margin-left: 5px;
+}
+#green {
+  accent-color: green;
+}
+#all {
+  accent-color: orange;
+}
+#black {
+  accent-color: black;
+}
+#blue {
+  accent-color: blue;
+}
+#red {
+  accent-color: red;
+}
+
+#white {
+  accent-color: white;
+}
