@@ -25,12 +25,12 @@
   cursor: pointer;
   transition: 0.5s all ease-in-out;
   background: #fff;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 2%,
     rgba(255, 255, 255, 1) 75%,
     rgba(133, 133, 133, 1) 100%
-  );
+  ); */
   &:hover {
     transform: scale(1.1);
     border: 2px solid rgb(255, 255, 255);
@@ -39,7 +39,7 @@
 }
 .img-container img {
   width: 80%;
-  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+  /* filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5)); */
 }
 .img-container {
   margin-left: 40px;
